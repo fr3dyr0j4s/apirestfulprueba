@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "nombre": "Milk",
+    "descripcion": "Fresh milk",
+    "precio": "2.99",
+    "cantidad": "10"
+  },
+  {
+    "id": "2",
+    "nombre": "Bread",
+    "descripcion": "Whole wheat bread",
+    "precio": "1.99",
+    "cantidad": "10"
+  },
+  {
+    "id": "3",
+    "nombre": "Eggs",
+    "descripcion": "Large eggs",
+    "precio": "3.49",
+    "cantidad": "10"
+  },
+  {
+    "id": "4",
+    "nombre": "Chicken",
+    "descripcion": "Skinless chicken breast",
+    "precio": "6.99",
+    "cantidad": "10"
+  },
+  {
+    "id": "5",
+    "nombre": "Rice",
+    "descripcion": "White rice",
+    "precio": "2.49",
+    "cantidad": "10"
+  },
+  {
+    "id": "6",
+    "nombre": "Tomatoes",
+    "descripcion": "Fresh tomatoes",
+    "precio": "1.29",
+    "cantidad": "10"
+  },
+  {
+    "id": "7",
+    "nombre": "Bananas",
+    "descripcion": "Ripe bananas",
+    "precio": "0.79",
+    "cantidad": "10"
+  },
+  {
+    "id": "8",
+    "nombre": "Cheese",
+    "descripcion": "Cheddar cheese",
+    "precio": "4.99",
+    "cantidad": "10"
+  },
+  {
+    "id": "9",
+    "nombre": "Pasta",
+    "descripcion": "Spaghetti pasta",
+    "precio": "1.49",
+    "cantidad": "10"
+  },
+  {
+    "id": "10",
+    "nombre": "Apples",
+    "descripcion": "Red apples",
+    "precio": "1.99",
+    "cantidad": "10"
+  }
+]

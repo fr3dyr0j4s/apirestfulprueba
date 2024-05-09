@@ -1,0 +1,25 @@
+GET http://localhost:3000/productos/tomatoes
+
+###
+GET http://localhost:3000/privilegios/publico
+
+###
+POST http://localhost:3000/privilegios/autenticado
+Content-Type: application/json
+
+{
+    "username":"bobjohnson",
+    "password":"password789"
+}
+
+###
+POST http://localhost:3000/privilegios/autorizado
+Content-Type: application/json
+
+{
+    "username":"janesmith",
+    "password":"password456"
+}
+
+###
+GET http://localhost:3000/productos/potatoes

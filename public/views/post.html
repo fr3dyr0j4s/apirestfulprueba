@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Post</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilospost.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="my-3">Registrar producto</h2>    
+    <div id="infoget" class="mt-4">
+        
+        <form id="formupost" method="POST">
+            <div class="row my-4">
+                <label for="dato1" class="col-sm-2 col-form-label">ID:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="id" class="form-control mostrardata" id="dato1" value="" >
+                </div>
+                <label for="dato2" class="col-sm-2 col-form-label">Nombre:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="nombre" class="form-control mostrardata" id="dato2" value="" >
+                </div>
+                <label for="dato3" class="col-sm-2 col-form-label">Descripción:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="descripcion" class="form-control mostrardata" id="dato3" value="" >
+                </div>
+                <label for="dato4" class="col-sm-2 col-form-label">Precio:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="precio" class="form-control mostrardata" id="dato4" value="">
+                </div>
+                <label for="dato5" class="col-sm-2 col-form-label">Cantidad:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="cantidad" class="form-control mostrardata" id="dato5" value="" >
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary mt-3" id="registrar">Registrar</button>
+                    <button type="reset" class="btn btn-primary mt-3" id="limpiar">Limpiar</button> 
+                    <a href="../index.html">
+                        <button type="button" class="btn btn-primary mt-3" id="reg">Regresar</button>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <script src="../js/scriptpost.js"></script>
+</body>
+</html>

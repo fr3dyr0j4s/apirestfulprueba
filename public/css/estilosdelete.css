@@ -1,0 +1,47 @@
+#cajaform{
+    width: 50%;
+}
+#cajaboton{
+    display: flex;
+    justify-content: end;
+}
+#infoget{
+    width: 50%;
+}
+#dato1{
+    width: 150px;
+}
+#enviar{
+    width: 150px;
+}
+#encabezados>th{
+    color: yellowgreen;
+}
+.btn{
+    color: yellowgreen;
+}
+#borrar{
+    width: 35px;
+    height: 35px;
+}
+.botonicon{
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/delete.png);
+    background-repeat: no-repeat;
+}
+.botonapply{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/yes.png);
+    background-repeat: no-repeat;
+}
+.botoncancel{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/not.png);
+    background-repeat: no-repeat;
+}
+#confirm{
+    width: 100%;
+}

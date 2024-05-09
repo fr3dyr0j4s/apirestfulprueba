@@ -1,0 +1,29 @@
+#cajaform{
+    width: 50%;
+}
+#cajaboton{
+    display: flex;
+    justify-content: end;
+}
+#infoget{
+    width: 50%;
+}
+#dato1{
+    width: 150px;
+}
+#enviar{
+    width: 150px;
+}
+#encabezados>th{
+    color: yellowgreen;
+}
+.btn{
+    color: yellowgreen;
+    font-weight: bold;
+}
+#error{
+    color: rgb(235, 55, 55);
+}
+#exito{
+    color: yellowgreen;
+}

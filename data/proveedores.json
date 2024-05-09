@@ -1,0 +1,122 @@
+[
+{
+    "id": "1",
+    "nombre": "Supplier A",
+    "correo": "supplierA@example.com",
+    "direccion": "123 Main St",
+    "contacto": "555-1234",
+    "estado": "true"
+},
+{
+    "id": "2",
+    "nombre": "Supplier B",
+    "correo": "supplierB@example.com",
+    "direccion": "456 Elm St",
+    "contacto": "555-5678",
+    "estado": "false"
+},
+{
+    "id": "3",
+    "nombre": "Supplier C",
+    "correo": "supplierC@example.com",
+    "direccion": "789 Oak St",
+    "contacto": "555-9012",
+    "estado": "true"
+},
+{
+    "id": "4",
+    "nombre": "Supplier D",
+    "correo": "supplierD@example.com",
+    "direccion": "321 Pine St",
+    "contacto": "555-3456",
+    "estado": "true"
+},
+{
+    "id": "5",
+    "nombre": "Supplier E",
+    "correo": "supplierE@example.com",
+    "direccion": "654 Cedar St",
+    "contacto": "555-7890",
+    "estado": "false"
+},
+{
+    "id": "6",
+    "nombre": "Supplier F",
+    "correo": "supplierF@example.com",
+    "direccion": "987 Maple St",
+    "contacto": "555-2345",
+    "estado": "true"
+},
+{
+    "id": "7",
+    "nombre": "Supplier G",
+    "correo": "supplierG@example.com",
+    "direccion": "159 Birch St",
+    "contacto": "555-6789",
+    "estado": "true"
+},
+{
+    "id": "8",
+    "nombre": "Supplier H",
+    "correo": "supplierH@example.com",
+    "direccion": "753 Walnut St",
+    "contacto": "555-0123",
+    "estado": "false"
+},
+{
+    "id": "9",
+    "nombre": "Supplier I",
+    "correo": "supplierI@example.com",
+    "direccion": "246 Oak St",
+    "contacto": "555-4567",
+    "estado": "true"
+},
+{
+    "id": "10",
+    "nombre": "Supplier J",
+    "correo": "supplierJ@example.com",
+    "direccion": "864 Pine St",
+    "contacto": "555-8901",
+    "estado": "true"
+},
+{
+    "id": "11",
+    "nombre": "Supplier K",
+    "correo": "supplierK@example.com",
+    "direccion": "279 Cedar St",
+    "contacto": "555-2345",
+    "estado": "false"
+},
+{
+    "id": "12",
+    "nombre": "Supplier L",
+    "correo": "supplierL@example.com",
+    "direccion": "492 Maple St",
+    "contacto": "555-6789",
+    "estado": "true"
+},
+{
+    "id": "13",
+    "nombre": "Supplier M",
+    "correo": "supplierM@example.com",
+    "direccion": "715 Birch St",
+    "contacto": "555-0123",
+    "estado": "true"
+},
+{
+    "id": "14",
+    "nombre": "Supplier N",
+    "correo": "supplierN@example.com",
+    "direccion": "938 Walnut St",
+    "contacto": "555-4567",
+    "estado": "false"
+},
+{
+    "id": "15",
+    "nombre": "Supplier O",
+    "correo": "supplierO@example.com",
+    "direccion": "261 Oak St",
+    "contacto": "555-8901",
+    "estado": "true"
+}
+]
