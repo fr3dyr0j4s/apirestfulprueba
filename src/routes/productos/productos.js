@@ -22,45 +22,42 @@ productoRouter.get('/:nombre', capitalMiddleware, (req, resp)=>{
 })
 
 ///*** Para DATATABLES creamos un nuevo EndPoint para consultar todo nuestro JSON
-// productoRouter.get('/', (req, resp) => {
+productoRouter.get('/', (req, resp) => {
 
-//     const productos = mibdp 
+    const productos = mibdp 
 
-//     if(!productos) return resp.status(404).send()
+    if(!productos) return resp.status(404).send()
 
-//     return resp.send(productos) 
-// })
+    return resp.send(productos) 
+})
 
 productoRouter.post('/', (req, resp) => {
     
-    const consultar = mibdp[idn].id
-    const idn = mibdp.length(consultar)
-    resp.send(`<h1>${idn}</h1>`)
 
-    // let id = req.body.id,
-    //     nombre = req.body.nombre,
-    //     descripcion = req.body.descripcion,
-    //     precio = req.body.precio,
-    //     cantidad = req.body.cantidad
+    let id = req.body.id,
+        nombre = req.body.nombre,
+        descripcion = req.body.descripcion,
+        precio = req.body.precio,
+        cantidad = req.body.cantidad
 
     
-    // if(!id || !nombre) resp.status(400).send
+    if(!id || !nombre) resp.status(400).send
     
-    // const productos = mibdp.find((productos) => productos.id === id)
-    // if(productos) return resp.status(409).send()
+    const productos = mibdp.find((productos) => productos.id === id)
+    if(productos) return resp.status(409).send()
 
-    // mibdp.push({
-    //     id, nombre, descripcion, precio, cantidad
-    // })
+    mibdp.push({
+        id, nombre, descripcion, precio, cantidad
+    })
 
-    // let datos = JSON.stringify(mibdp)
-    // try{
-    //     fs.writeFileSync('./data/productos.json', datos)
-    // } catch(error){
-    //     console.log(error)
-    // }
+    let datos = JSON.stringify(mibdp)
+    try{
+        fs.writeFileSync('./data/productos.json', datos)
+    } catch(error){
+        console.log(error)
+    }
 
-    // return resp.send(mibdp)
+    return resp.send(mibdp)
 
 })
 

@@ -1,8 +1,26 @@
 
+pedirId()
+
 document.getElementById('registrar').addEventListener('click', (e)=>{
     e.preventDefault()
     postDatos()
 })
+
+function pedirId(){
+    let url = '/productos'
+
+    fetch(url)
+        .then(respuesta => respuesta.json())
+            .then(datos =>{
+                //console.log(datos)
+                const tam = datos.length
+                const ult = datos[tam-1]
+                let ultid = parseInt(ult.id) + 1
+                let id = document.getElementById('dato1')
+                id.value = ultid
+            })
+}
+
 
 async function postDatos(){
     const formulario = document.getElementById('formupost')
