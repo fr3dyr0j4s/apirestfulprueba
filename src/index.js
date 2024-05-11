@@ -13,7 +13,7 @@ const PUERTO = process.env.PUERTO || 3150
 
 const rutasApp = require('./routes/adminrouters')
 
-expressApp.use(express.static('/','public'))
+expressApp.use(express.static('public'))
 
 
 expressApp.use('/', rutasApp)
