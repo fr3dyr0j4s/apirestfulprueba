@@ -201,5 +201,12 @@
         "descripcion": "Bolsa por 15 unidades",
         "precio": "2.52",
         "cantidad": "18"
+    },
+    {
+        "id": "30",
+        "nombre": "Papa",
+        "descripcion": "Pastusa por kg",
+        "precio": "2.05",
+        "cantidad": "25"
     }
 ]

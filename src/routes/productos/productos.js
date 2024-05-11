@@ -33,14 +33,12 @@ productoRouter.get('/', (req, resp) => {
 
 productoRouter.post('/', (req, resp) => {
     
-
     let id = req.body.id,
         nombre = req.body.nombre,
         descripcion = req.body.descripcion,
         precio = req.body.precio,
         cantidad = req.body.cantidad
 
-    
     if(!id || !nombre) resp.status(400).send
     
     const productos = mibdp.find((productos) => productos.id === id)
@@ -52,7 +50,7 @@ productoRouter.post('/', (req, resp) => {
 
     let datos = JSON.stringify(mibdp)
     try{
-        fs.writeFileSync('./data/productos.json', datos)
+        fs.writeFileSync('./src/data/productos.json', datos)
     } catch(error){
         console.log(error)
     }
@@ -75,7 +73,7 @@ productoRouter.patch('/:id', (req, resp) => {
     
     let datos = JSON.stringify(mibdp)
     try{
-        fs.writeFileSync('./data/productos.json', datos)
+        fs.writeFileSync('./src/data/productos.json', datos)
     } catch(error){
         console.log(error)
     }
@@ -94,7 +92,7 @@ productoRouter.delete('/:id', (req, resp) => {
     
     let datos = JSON.stringify(mibdp)
     try{
-        fs.writeFileSync('./data/productos.json', datos)
+        fs.writeFileSync('./src/data/productos.json', datos)
     } catch(error){
         console.log(error)
     }
