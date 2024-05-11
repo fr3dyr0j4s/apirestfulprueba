@@ -33,30 +33,34 @@ productoRouter.get('/:nombre', capitalMiddleware, (req, resp)=>{
 
 productoRouter.post('/', (req, resp) => {
     
-    let id = req.body.id,
-        nombre = req.body.nombre,
-        descripcion = req.body.descripcion,
-        precio = req.body.precio,
-        cantidad = req.body.cantidad
+    const consultar = mibdp[idn].id
+    const idn = mibdp.length(consultar)
+    resp.send(`<h1>${idn}</h1>`)
+
+    // let id = req.body.id,
+    //     nombre = req.body.nombre,
+    //     descripcion = req.body.descripcion,
+    //     precio = req.body.precio,
+    //     cantidad = req.body.cantidad
 
     
-    if(!id || !nombre) resp.status(400).send
+    // if(!id || !nombre) resp.status(400).send
     
-    const productos = mibdp.find((productos) => productos.id === id)
-    if(productos) return resp.status(409).send()
+    // const productos = mibdp.find((productos) => productos.id === id)
+    // if(productos) return resp.status(409).send()
 
-    mibdp.push({
-        id, nombre, descripcion, precio, cantidad
-    })
+    // mibdp.push({
+    //     id, nombre, descripcion, precio, cantidad
+    // })
 
-    let datos = JSON.stringify(mibdp)
-    try{
-        fs.writeFileSync('./data/productos.json', datos)
-    } catch(error){
-        console.log(error)
-    }
+    // let datos = JSON.stringify(mibdp)
+    // try{
+    //     fs.writeFileSync('./data/productos.json', datos)
+    // } catch(error){
+    //     console.log(error)
+    // }
 
-    return resp.send(mibdp)
+    // return resp.send(mibdp)
 
 })
 
