@@ -12,7 +12,6 @@ function pedirId(){
     fetch(url)
         .then(respuesta => respuesta.json())
             .then(datos =>{
-                //console.log(datos)
                 const tam = datos.length
                 const ult = datos[tam-1]
                 let ultid = parseInt(ult.id) + 1
