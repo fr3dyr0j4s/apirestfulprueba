@@ -23,7 +23,6 @@ expressApp.use('/', rutasApp)
 //     console.log('Servidor listo en el puerto', port)
 // })
 
-
 expressApp.listen(PUERTO, () =>{
     console.log(`Servidor listo en el puerto ${PUERTO}`)
 })
