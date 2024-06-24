@@ -8,8 +8,8 @@ const expressApp = express()
 
 //dotenv.config()
 
-//const PUERTO = process.env.PUERTO || 3150
-const PUERTO = 3250
+const PUERTO = process.env.PUERTO || 3150
+//const PUERTO = 3250
 
 
 const rutasApp = require('./routes/adminrouters')
